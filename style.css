@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{/*configuração global das CSS */
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+
+}
+body{
+    background-image: linear-gradient(to right, white, rgb(221, 221, 221));
+    background-attachment: fixed; /*fixação do gradiente*/
+    
+}
+main {
+    border-radius: 10px; /* serve para deixar bordas arredondadas*/
+    box-shadow: 5px 5px 15px#c0b4a998; /* fazer sombreamento */
+    background-color: white;
+    width: 800px;/* serve para ajustar a largura*/
+    padding: 10px; /* serve para colocar um espaço no texto chamado de aconchoamento*/
+    margin: auto; /* serve para centralizar */
+
+
+}
+h1{
+    color: #012E40;
+    font-family:Arial, Helvetica, sans-serif;
+    /*text-align:center;  coloca um texto em algum alinhamento, centro, fim, justificado, direita, esquerda...  */
+    
+}
+.titulo {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+h2{
+    color: #026773;
+    background-color: #3CA6A6;
+    border-radius: 10px;
+    padding:5px;
+
+}
+h3{
+    display: block;
+    font-size: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p, pre{
+    font-size: 20px;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(245, 244, 244);
+    border-radius:10px;
+    box-shadow: 5px 5px 15px rgba(184, 184, 184, 0.637);
+    border: 10px;
+    margin: 30px auto;
+}
+#indice{
+    width: 70%;
+    border-radius:10px;
+    box-shadow: 5px 5px 15px rgba(184, 184, 184, 0.637);
+    border-width:10px;
+    border-style:solid;
+    border-color:rgba(99, 99, 99, 0.363);
+    margin: auto;
+}

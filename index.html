@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="VILIBRAS.ico" type="image/x-icon"> <!-- esse comando é para colocar um icon na guia do site.-->
+    <title>Resumo de semântica no HTML</title>
+    <link rel="stylesheet" href="style.css"> <!-- Aqui chama o css-->
+</head>
+<body>
+    <main>
+        <h1 class="titulo" style="text-align:center;">Resumo</h1>
+
+        <ul id="indice">
+            <li><a href="#imagem">imagens</a></li>
+            <li>tipos de letra</li>
+            <ul><li><a href="#negrito">negrito</a></li><li><a href="#itálico">itálico</a></li></ul>
+            <li>principais formatações</li>
+            <ul><li><a href="#texto marcado">texto marcado</a></li><li><a href="#texto deletado">texto deletado</a></li><li><a href="#texto inserido">texto inserido</a></li><li><a href="#texto sobrescrito">texto sobrescrito</a></li><li><a href="texto subscrito">texto subscrito</a></li><li><a href="#tag span">tag span</a></li></ul>
+            <li><a href="#código fonte">código fonte e pré-formatação</a></li>
+            <li>citações</li>
+            <ul><li><a href="#citação curta">citação curta</a></li><li><a href="#citação longa">citação longa</a></li></ul>
+            <li><a href="#abreviação">abreviação</a></li>
+            <li>listas</li>
+            <ul><li><a href="#lista ordenada">lista ordenada</a></li><li><a href="#lista não ordenada">lista não ordenada</a></li><li><a href="#lista sobre listas">lista sobre listas</a></li></ul>
+            <li>links</li>
+            <ul><li><a href="#links externos">links externos</a></li><a href="#links internos">links internos</a></ul>
+        </ul>
+
+    <p id="imagem">para inserirmos uma imagem no site utilizmos a tag &lt;img&gt; acompanhado das <q>subtags</q> <code>scr</code> e <code>alt</code></p>
+    <img src="LOGO VILIBRAS SMALL.png" alt="Logo VILIBRAS"> <!--imagem-->
+   <h1>principais formatações </h1>
+
+    <h2 id="negrito">negrito ou destacado</h2>
+    <p>utiliza-se a tag &lt;strong&gt; para colocaar um termo em negrito.</p>
+   <p>Nesta frase existe um <strong>termo em negrito</strong></p>
+
+   <h2 id="itálico">itálico</h2>
+   <p>utiliza-se a tag &lt;i&gt; para colocar um termo em itálico</p>
+   <p>nesta frase existe um <i>termo em itálico</i></p>
+
+   <h2>itálico ou ênfase</h2>
+   <p>utiliza-se a tag &lt;em&gt; para colocar um termo em ênfase</p>
+   <p>nesta frase existe um <em>termo em ênfase</em></p>
+
+   <h2 id="texto marcado">texto marcado</h2>
+   <p>utiliza-seo termo &lt;mark&gt; para colocar um termo em marcado</p>
+   <p>Aqui está um exemplo de <mark style="background-color: lightseagreen;">texto marcado</mark></p>
+
+   <h2 id="texto deletado">texto deletado</h2>
+   <p>utiliza-se a tag &lt;del&gt; para colocar u termo em deletado</p>
+   <p>exemplo de texto <del>deletado</del></p>
+
+   <h2 id="texto inserido">texto inserido</h2>
+   <p>utiiza-se a tag &lt;ins&gt; para umm texto inserido</p>
+   <p>exemplo de texto <ins>inserido</ins></p>
+
+    <h2 id="texto sobrescrito">texto sobrescrito</h2>
+    <p>utiliza-se a tag &lt;sup&gt; para um texto sobrescrito</p>
+    <p>exemplo de texto sobrescrito: 2<sup>3</sup> ou x<sup>4</sup></p>
+
+   <h2 id="texto subscrito">texto subscrito</h2>
+   <p>utiiza-se a tag &lt;sub&gt; para um texto subscrito</p>
+<p>exemplo de texto subscrito O<sub>2</sub> H<sub>_</sub>O</p>
+<h2 id="tag span">tag span</h2>
+<p>a tag <code>span</code> serve para guardarmos umma parte do texto</p>
+
+<h1 id="código fonte">código-fonte e pre-formatação</h1>
+<h2>para códigos utiliza-se o &lt;code&gt;, para pre formatação utiliza-se o &lt;pre&gt;</h2>
+<pre> <!--- o comando pre é utilizado pra respeitar a formataçao presente aqui no código-->
+    <code> <!-- o comando code é utilizado para uma melhor visualização de códigos de programação.-->
+print ("hello world")
+    </code>
+</pre>
+
+<h1 id="citações">citações</h1>
+
+<h2 id="citação curta">citação curta</h2>
+<p>utiliza-se a tag &lt;q&gt;</p>
+<p><q>A vida é como um jogo de xadrez, perdemos algumas peças para termos um final feliz.</q></p>
+
+<h2 id="citação longa">citação longa</h2>
+<p>utiliza-se a tag &lt;blockquote&gt;</p>
+<blockquote cite="https://www.google.com.br/books/edition/A_Psicologia_das_cores/Zl1lEAAAQBAJ?hl=pt-BR&gbpv=1&dq=psicologia+das+cores&printsec=frontcover">A cor é mais do que um fenômeno ótico, mais do que um instrumento técnico. </blockquote> <!--o cite é para o navegador entender que estou citando algo.-->
+
+<h2 id="areviação">abreviação</h2>
+<p>para abreviação utiliza-se a tag &lt;abbr&gt;</p>
+<p><abbr title="vocabulário de informática em libras">vilibras</abbr> e <abbr title="lingua brasileira de sinais">libras</abbr></p>
+
+<h2 id="listas">listas no html</h2>
+
+<h3 id="listas ordenadas">lista ordenada</h3>
+<p>para criarmos listas desse tipo utilizamos as tags &lt;ol&gt; e a tag &lt;li&gt; </p>
+<ol><!-- utiliza primeiro a tag ol e dps a tag li - 1 A a I i-->
+    <li>oi</li>
+    <li>tudo</li>
+    <li>bem</li>
+</ol>
+<h3 id="listas não ordenadas">lista não ordenada</h3>
+<p>para criar uma lista n ordenada utiliza a tag &lt;ul&gt; e a tag &lt;li&gt;</p>
+<ul type = "square"> <!--disc cicle square-->
+    <li>pao
+        queijo
+        manteiga
+        creme
+        tijolo
+    </li>
+</ul>
+<h2 id="lista sobre listas">lista sobre listas</h2>
+<ul type = "disc">
+    <li>Comidas que eu gosto</li>
+    <li>salgadas</li>
+    <ul>
+        <li>churrasco</li>
+        <ul>
+            <li>
+                carne
+            </li>
+        </ul>
+        <li>hamburguer</li>
+        <ul>
+            <li>
+                com carne
+            </li>
+        </ul>
+        <li>strogonoff</li>
+        <ul>
+            <li>
+                carne
+            </li>
+        </ul>
+    </ul>
+    <li>doces</li>
+    <ul>
+        <li>musse</li>
+        <ul>
+            <li>
+                chocolate
+            </li>
+        </ul>
+        <li>pudim</li>
+        <ul>
+            <li>
+                chocollate
+            </li>
+        </ul>
+        <li>bolo</li>
+        <ul>
+            <li>chocolate</li>
+        </ul>
+    </ul>
+</ul>
+
+<h2 id="link externo">usando links externos</h2>
+<p>utilizano a tag &lt;a&gt; voce pode fzer uma âncora</p>
+<P>voce pode pesquisar sobre <a href="https://www.bing.com/ck/a?!&&p=e72262ec35522452JmltdHM9MTY3MjE4NTYwMCZpZ3VpZD0zMzIxODIzNi0xNjY3LTZmOTktMGRjYi05MGI2MTc3MzZlZjgmaW5zaWQ9NTQ2OA&ptn=3&hsh=3&fclid=33218236-1667-6f99-0dcb-90b617736ef8&psq=seo+html&u=a1aHR0cHM6Ly9yb2NrY29udGVudC5jb20vYnIvYmxvZy9vLXF1ZS1lLXNlby8&ntb=1">SEO</a></P>
+<p>voce pode criar uma nova guia para um link externo utilizando o <code>&lt;a:blank&gt;</code> no envelopar</p>
+
+<p>Lorem ipsum dolor sit, amet consectetur <a href="https://www.bing.com/ck/a?!&&p=e72262ec35522452JmltdHM9MTY3MjE4NTYwMCZpZ3VpZD0zMzIxODIzNi0xNjY3LTZmOTktMGRjYi05MGI2MTc3MzZlZjgmaW5zaWQ9NTQ2OA&ptn=3&hsh=3&fclid=33218236-1667-6f99-0dcb-90b617736ef8&psq=seo+html&u=a1aHR0cHM6Ly9yb2NrY29udGVudC5jb20vYnIvYmxvZy9vLXF1ZS1lLXNlby8&ntb=1" target="_blank" rel="external">adipisicing</a>.
+
+<h2 id="link interno">links internos</h2>
+<p>é possivel navegar entre pagiinas do prórpio site. Entre na minha <a href="pagina2.html" rel="next">segunda página</a></p>
+</main>
+</body>
+</html>
